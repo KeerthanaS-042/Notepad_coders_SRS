@@ -42,14 +42,11 @@ The dependencies are: -
 
 	Dependency on a particular database system (e.g., MySQL) for storing and retrieving blog data.
 	Dependency on servers or cloud services for hosting the blog platform.
-	Dependency on a Content Delivery Network for efficient content delivery and improved performance.
-	Dependency on third-party authentication services for user login and security.
-  If the blog platform involves paid content, there may be dependencies on payment gateways.
+	Dependency on google authentication or mail authentication services for user login and security.
+        If the blog platform involves paid content, there may be dependencies on payment gateways.
 	Dependencies on libraries or services for handling image and media uploads and processing.
 	Dependency on search engines or search libraries for implementing search functionality on the blog platform.
 	Dependency on analytics tools for tracking user behaviour and engagement.
-	Dependency on tools for monitoring and tracking errors and issues within the platform.
-	Dependency on communication tools for team.
 
 
 

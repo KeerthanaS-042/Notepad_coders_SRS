@@ -16,7 +16,8 @@ The features that are available to the Author are: -
 The features that are available to the Reader are: - 
  	User can comment like, share the blog post
 	User can categorise and search blog
-	User can have access to super thanks feature where they can gift the author by contributing money and sending gifts 
+	User can have access to super thanks feature where they can gift the author by contributing money and sending gifts
+        User has the previlage of switching to their comfortable language with multi language options. 
 
  ## 2.Operating Environment 
 

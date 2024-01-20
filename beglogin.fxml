@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.control">
+    <children>
+        <AnchorPane prefHeight="63.0" prefWidth="1400.0" style="-fx-background-color: #31304d;">
+            <children>
+                <Label layoutX="594.0" layoutY="17.0" text="Beginner's Track..." textFill="WHITE">
+                    <font>
+                        <Font name="Maiandra GD" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="25.0" layoutY="82.0" text="Summary..." textFill="#31304d" underline="true">
+            <font>
+                <Font name="Maiandra GD" size="32.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="128.0" prefHeight="34.0" prefWidth="940.0" text="If you are compleely new or fairly new to the trading then this track was created just for you.">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="155.0" prefHeight="34.0" prefWidth="940.0" text="We have painstackingly outlined this course to focus on the most important topics to quickly">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="183.0" prefHeight="34.0" prefWidth="940.0" text="hack the options trading learning curve. take your time as you work through each tutorial.">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="1027.0" layoutY="61.0" prefHeight="629.0" prefWidth="372.0" style="-fx-background-color: #31304d;">
+            <children>
+                <ImageView fitHeight="279.0" fitWidth="294.0" layoutX="45.0" layoutY="187.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../../../../../../../../../Users/Keerthana/Downloads/WhatsApp%20Image%202023-12-08%20at%208.51.21%20PM.jpeg" />
+                    </image>
+                </ImageView>
+            </children></AnchorPane>
+        <Label layoutX="25.0" layoutY="233.0" text="Options contract..." textFill="#31304d" underline="true">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="264.0" prefHeight="20.0" prefWidth="616.0" text="An option contract is simply an agreement between two parties that gives purchaser of the option">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="281.0" prefHeight="17.0" prefWidth="528.0" text="the right to buy stock at a later expiration date at a predetermined strike price.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="318.0" text="Buying Options vs Selling options..." textFill="#31304d" underline="true">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="354.0" prefHeight="20.0" prefWidth="572.0" text="The difference between buying option and selling option comes down simply understanding">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="374.0" prefHeight="20.0" prefWidth="616.0" text="your rights and obligations that you transfer to  the other party in the contract with Calls and Puts.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="417.0" text="Stock trading vs options trading..." textFill="#31304d" underline="true">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="453.0" prefHeight="20.0" prefWidth="591.0" text="Stock trading and options trading are completely different ways to make money in the market.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="476.0" prefHeight="20.0" prefWidth="669.0" text="Unlike trading stokes directionally, options allows you to profit multiple ways in different market conditions.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="515.0" text="Call vs Put options basics..." textFill="#31304d" underline="true">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="24.0" layoutY="549.0" prefHeight="20.0" prefWidth="616.0" text="There are two types of options contrcts: Call and Put. Everything you do in options trading revolves">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="26.0" layoutY="574.0" prefHeight="20.0" prefWidth="616.0" text="around the use of thedse two contraact types. ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="618.0" text="options Expiration and Assignment..." textFill="#31304d" underline="true">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="22.0" layoutY="655.0" prefHeight="20.0" prefWidth="648.0" text="Options contracts have finite expiraqtion dates and are regulated by the Options clearing Corporations.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
+

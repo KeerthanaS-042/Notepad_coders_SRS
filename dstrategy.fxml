@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656.0" prefWidth="947.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newdashboard.dcontroller">
+    <children>
+        <AnchorPane layoutX="-26.0" layoutY="-3.0" prefHeight="102.0" prefWidth="1400.0" style="-fx-background-color: #31304d;">
+            <children>
+                <Label layoutX="645.0" layoutY="18.0" prefHeight="66.0" prefWidth="177.0" text="Strategy" textFill="WHITE">
+                    <font>
+                        <Font name="Maiandra GD" size="48.0" />
+                    </font>
+                </Label>
+            </children></AnchorPane>
+        <AnchorPane layoutY="174.0" prefHeight="127.0" prefWidth="1400.0" style="-fx-background-color: #b6bbc4;">
+            <children>
+                <Label layoutX="166.0" layoutY="9.0" prefHeight="46.0" prefWidth="1185.0" text="The iron butterfly options strategy consists of selling an at-the-money short straddle and buying out-of-the-money options “on the wings” with the ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="166.0" layoutY="45.0" prefHeight="46.0" prefWidth="1179.0" text="same expiration date to create a risk-defined position.Iron butterfly trades look to take advantage of a drop in volatility, time decay, and little or no ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="89.0" fitWidth="115.0" layoutX="27.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../../../../../../Users/Keerthana/Pictures/Camera%20Roll/iron%20butterfly.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="169.0" layoutY="81.0" prefHeight="46.0" prefWidth="1179.0" text="movement from the underlying asset.">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="1230.0" layoutY="94.0" prefHeight="27.0" prefWidth="59.0" text="view it." textFill="#071ae4" underline="true">
+                    <font>
+                        <Font name="System Italic" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="22.0" layoutY="125.0" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: #31304d;" text="1.Iron Butterfly" textFill="WHITE">
+            <font>
+                <Font name="Arial Italic" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="22.0" layoutY="322.0" prefHeight="40.0" prefWidth="203.0" style="-fx-background-color: #31304d;" text="2.Bull Call Debit Spread" textFill="WHITE">
+            <font>
+                <Font name="Arial Italic" size="24.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutY="380.0" prefHeight="127.0" prefWidth="1400.0" style="-fx-background-color: #b6bbc4;">
+            <children>
+                <Label layoutX="166.0" layoutY="9.0" prefHeight="46.0" prefWidth="1195.0" text="A bull call debit spread is a multi-leg, risk-defined, bullish strategy with limited profit potential. The strategy looks to take advantage of an increase in ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="166.0" layoutY="45.0" prefHeight="46.0" prefWidth="1195.0" text=" price from the underlying asset before expiration.The strategy looks to take advantage of a price increase from the underlying asset before expiration.">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="89.0" fitWidth="115.0" layoutX="27.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../../../../../../Users/Keerthana/Pictures/Camera%20Roll/spread%20call%20.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="169.0" layoutY="81.0" prefHeight="46.0" prefWidth="1179.0" text="Increased implied volatility may also benefit the bull call debit spread.">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="1230.0" layoutY="94.0" prefHeight="27.0" prefWidth="59.0" text="view it." textFill="#071ae4" underline="true">
+                    <font>
+                        <Font name="System Italic" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="22.0" layoutY="531.0" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: #31304d;" text="3.Stock Repair" textFill="WHITE">
+            <font>
+                <Font name="Arial Italic" size="24.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutY="593.0" prefHeight="127.0" prefWidth="1400.0" style="-fx-background-color: #b6bbc4;">
+            <children>
+                <Label layoutX="166.0" layoutY="9.0" prefHeight="46.0" prefWidth="1185.0" text="Stock repair is a multi-leg options strategy used to help recover losses from a long stock position that has moved down in price.The income collected">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="166.0" layoutY="45.0" prefHeight="46.0" prefWidth="1195.0" text="from selling the spread helps increase the probability of recovering from the loss of the long stock position.A stock repair may be entered at no cost ">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="89.0" fitWidth="115.0" layoutX="27.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../../../../../../Users/Keerthana/Pictures/Camera%20Roll/protective.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="169.0" layoutY="69.0" prefHeight="46.0" prefWidth="1179.0" text="or for a credit.">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="1229.0" layoutY="78.0" prefHeight="27.0" prefWidth="59.0" text="view it." textFill="#071ae4" underline="true">
+                    <font>
+                        <Font name="System Italic" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
+

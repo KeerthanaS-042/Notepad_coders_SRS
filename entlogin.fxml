@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="1404.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.control">
+    <children>
+        <AnchorPane layoutX="-2.0" layoutY="-1.0" prefHeight="78.0" prefWidth="1402.0" style="-fx-background-color: #31304d;">
+            <children>
+                <Label layoutX="740.0" layoutY="30.0" text="Entries and Exits..." textFill="WHITE">
+                    <font>
+                        <Font name="Maiandra GD" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutY="71.0" prefHeight="677.0" prefWidth="263.0" style="-fx-background-color: #31304d;">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="22.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fitHeight="244.0" fitWidth="230.0" layoutX="14.0" layoutY="109.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../../../../../../../../../Users/Keerthana/Downloads/WhatsApp%20Image%202023-12-08%20at%208.51.11%20PM.jpeg" />
+                    </image>
+                </ImageView>
+            </children></AnchorPane>
+        <Label layoutX="312.0" layoutY="104.0" text="Summary..." textFill="#182539" underline="true" wrapText="true">
+            <font>
+                <Font name="Maiandra GD" size="32.0" />
+            </font>
+        </Label>
+        <Label layoutX="306.0" layoutY="151.0" prefHeight="30.0" prefWidth="1094.0" text="Successful options trading is 100% dependent on your ability to find and enter trades that give you an &quot;edge&quot; in the ">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="303.0" layoutY="181.0" prefHeight="30.0" prefWidth="1100.0" text="market. We'll review different strategies, option order types including market, limit, and stop orders, while highlight">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="303.0" layoutY="211.0" prefHeight="30.0" prefWidth="1072.0" text="tactics and tips you can use today. Plus, you'll dive into some advanced topics with order entry checklists, when to">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="303.0" layoutY="241.0" prefHeight="30.0" prefWidth="1151.0" text="close trades rolling mechanics, and how to pin specific high probability trades.rolling mechanics, and how to pin specific">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="307.0" layoutY="327.0" text="Game of Numbers..." textFill="#31304d" underline="true">
+            <font>
+                <Font name="Maiandra GD" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="306.0" layoutY="368.0" prefHeight="17.0" prefWidth="759.0" text="Gaining confidence with any trading system starts with a firm knowledge and understanding of the numbers. You have to see the end in sight " />
+        <Label layoutX="306.0" layoutY="393.0" prefHeight="17.0" prefWidth="812.0" text="to feel comfortable traveling the road to get there. When it comes to trading options, this business is aboutto feel comfortable traveling the road" />
+        <Label layoutX="306.0" layoutY="419.0" prefHeight="17.0" prefWidth="812.0" text="to get there. When it comes to trading options, this business is about nothing more than probabilities and position sizing." />
+        <Label layoutX="312.0" layoutY="474.0" text="Scanning for Trades..." textFill="#31304d" underline="true">
+            <font>
+                <Font name="Maiandra GD" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="312.0" layoutY="516.0" prefHeight="17.0" prefWidth="812.0" text="Scanning for trades is easier than most people believe. Once you know what to look for you can create a strategy for any stock in any market condition." />
+        <Label layoutX="312.0" layoutY="541.0" prefHeight="17.0" prefWidth="943.0" text="Most traders assume that scanning for a possible trading set-up takes hours or days before youMost traders assume that scanning for a possible trading" />
+        <Label layoutX="312.0" layoutY="566.0" prefHeight="17.0" prefWidth="943.0" text="set-up takes hours or days before you find something that is tradable - but this just isn't true.set-up takes hours or days before you find something that is" />
+        <Label layoutX="312.0" layoutY="589.0" prefHeight="17.0" prefWidth="943.0" text="radable - but this just isn't true. Once you know what to look for the process of scanningradable - but this just isn't true. Once you know what to look for" />
+        <Label layoutX="312.0" layoutY="612.0" prefHeight="17.0" prefWidth="943.0" text="the process of scanning for new trades becomes incredibly easy because we for the process of scanning for new trades becomes incredibly easy because we" />
+        <Label layoutX="312.0" layoutY="635.0" prefHeight="17.0" prefWidth="943.0" text="can create a strategy for any possible stock set up." />
+        <Label layoutX="306.0" layoutY="272.0" prefHeight="30.0" prefWidth="1151.0" text="high probabilities of trades.">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

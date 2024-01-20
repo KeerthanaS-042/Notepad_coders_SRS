@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="679.0" prefWidth="1211.0" style="-fx-background-color: #b6bbc4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.login.control">
+   <children>
+      <AnchorPane layoutX="-69.0" layoutY="-12.0" prefHeight="716.0" prefWidth="618.0" style="-fx-background-color: #31304d;">
+         <children>
+            <ImageView fitHeight="368.0" fitWidth="411.0" layoutX="131.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../Users/Keerthana/Downloads/Welcome-bro.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="152.0" layoutY="543.0" prefHeight="56.0" prefWidth="396.0" text=" Welcome Let the Creativity Flow......." textFill="WHITE">
+               <font>
+                  <Font name="Book Antiqua" size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="622.0" layoutY="322.0" text="Username">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="629.0" layoutY="404.0" text="Password">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user" layoutX="775.0" layoutY="322.0" prefHeight="49.0" prefWidth="267.0" promptText="username..." />
+      <Button fx:id="loginbutton" layoutX="790.0" layoutY="512.0" mnemonicParsing="false" onAction="#loginvalidate" onMouseClicked="#GoTodashboard" prefHeight="42.0" prefWidth="122.0" style="-fx-background-color: #31304d; -fx-background-radius: 40px;" text="Login" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <PasswordField fx:id="password" layoutX="775.0" layoutY="396.0" prefHeight="49.0" prefWidth="267.0" promptText="password..." />
+      <Label fx:id="wronglogin" layoutX="1014.0" layoutY="495.0" />
+      <Label layoutX="767.0" layoutY="598.0" prefHeight="35.0" prefWidth="169.0" text="Don't have account? ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="register" layoutX="936.0" layoutY="602.0" onMouseClicked="#GoToregister" prefHeight="27.0" prefWidth="76.0" text="Register" textFill="BLUE" underline="true">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="-79.0" layoutY="-15.0" prefHeight="174.0" prefWidth="1443.0" style="-fx-background-color: #31304d;">
+         <children>
+            <Label layoutX="482.0" layoutY="21.0" prefHeight="153.0" prefWidth="548.0" text="Trade Console" textFill="WHITE">
+               <font>
+                  <Font name="Maiandra GD" size="75.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="750.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courses.controller">
+    <children>
+        <AnchorPane prefHeight="69.0" prefWidth="1400.0" style="-fx-background-color: #31304d;">
+            <children>
+                <Label layoutX="620.0" layoutY="20.0" text="Options Basic..." textFill="WHITE">
+                    <font>
+                        <Font name="Maiandra GD" size="24.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Label layoutX="28.0" layoutY="83.0" text="Summary..." textFill="#31304d" underline="true">
+            <font>
+                <Font name="Maiandra GD" size="32.0" />
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="146.0" prefHeight="30.0" prefWidth="826.0" text="Whether you are a completely new trader or an experienced trader, you'll still need to master">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="167.0" prefHeight="30.0" prefWidth="826.0" text="the basics. We'll cover everything from strike prices to strategy profit &amp; loss diagrams so that">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="189.0" prefHeight="30.0" prefWidth="826.0" text="you have the confidence to start tackling more advanced modules. Plus, we'll walk through">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="210.0" prefHeight="30.0" prefWidth="665.0" text="some step-by-step instructions on buying and selling your first options.">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="1094.0" layoutY="67.0" prefHeight="690.0" prefWidth="306.0" style="-fx-background-color: #31304d;">
+            <children>
+                <ImageView fitHeight="233.0" fitWidth="284.0" layoutX="10.0" layoutY="163.0" pickOnBounds="true">
+                    <image>
+                        <Image url="@../../../../../../../../../Users/Keerthana/Downloads/WhatsApp%20Image%202023-12-08%20at%208.51.13%20PM.jpeg" />
+                    </image>
+                </ImageView>
+            </children></AnchorPane>
+        <Label layoutX="28.0" layoutY="269.0" text="Why Options vs. Stocks?" textFill="#31304d" underline="true">
+            <font>
+                <Font name="Maiandra GD" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="306.0" prefHeight="20.0" prefWidth="758.0" text="As you make the transition from being a stock investor to an options trader it would be great to know exactly why options ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="358.0" prefHeight="20.0" prefWidth="867.0" text="evidence shows that options trading can be more profitable and less risky. For example, how do optionsoffer greater returns with less risk? ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="333.0" prefHeight="20.0" prefWidth="766.0" text="are much more beneficial, right? Most people blindly assume that options trading is more risky than stock trading.Yet the">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="388.0" text="Smart Use of Leverage..." textFill="#31304d" underline="true">
+            <font>
+                <Font name="Maiandra GD" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="420.0" prefHeight="20.0" prefWidth="702.0" text="Options offer the ability to customize stock profiting strategies using leverage. But as you know leverage can be ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="437.0" prefHeight="17.0" prefWidth="658.0" text="good or bad depending on how you use it.good or bad depending on how you use it.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="474.0" text="Option Strike Price..." textFill="#31304d" underline="true">
+            <font>
+                <Font name="Maiandra GD" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="520.0" prefHeight="20.0" prefWidth="791.0" text="The option strike price is the exact price at which you agree to buy or sell the underlying stock in the future. Another name for">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="540.0" prefHeight="20.0" prefWidth="915.0" text="the strike price is the exercise price of the option contract but don't get too confused on the terminology as long as you understand what it means.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="560.0" prefHeight="20.0" prefWidth="915.0" text="A quick tip I always use to remember the strike price is that it's the point at which I &quot;strike a deal&quot; on the stock.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="28.0" layoutY="606.0" text="How to Buy a Call Option" textFill="#31304d" underline="true">
+            <font>
+                <Font name="Maiandra GD" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="639.0" prefHeight="20.0" prefWidth="728.0" text="In this we'll use AAPL stock as an example and go directly to my broker platform and walk through the">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="25.0" layoutY="659.0" prefHeight="20.0" prefWidth="728.0" text="steps to buy a call option anticipating that AAPL stock might rise the future.">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
